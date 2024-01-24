@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(218, 23%, 16%);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  & .card {
+    position: relative;
+    width: 420px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 24%);
+    & .advice-number {
+      display: flex;
+      justify-content: center;
+      margin-top: 35px;
+      margin-bottom: 10px;
+      letter-spacing: 4px;
+      font-size: 12px;
+      font-family: "Manrope", sans-serif;
+      color: hsl(150, 100%, 66%);
+    }
+    & .advice {
+      text-align: center;
+      padding: 10px 30px 10px 30px;
+      font-family: "Manrope", sans-serif;
+      font-weight: 800;
+      height: 82px;
+      color: hsl(193, 38%, 86%);
+      & p {
+        font-size: 21px;
+      }
+    }
+
+    & .line {
+      padding: 0px 40px 0px 40px;
+      padding-top: 20px;
+
+      & img {
+        width: 100%;
+        padding-top: 18px;
+      }
+    }
+
+    & .footer {
+      background-color: hsl(150, 100%, 66%);
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      & img {
+        width: 17px;
+      }
+    }
+  }
+}
+.d-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43%;
+}
+
+#msg::before {
+  content: "“";
+}
+#msg::after {
+  content: "”";
+}
